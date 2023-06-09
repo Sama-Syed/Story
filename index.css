@@ -1,0 +1,50 @@
+.movies{
+
+    padding:5px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+}
+body{
+    background-image: url('img.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120% 120%;
+   
+} 
+    #movie_img
+{
+    transition: 0.3s;
+}
+#movie_img:hover
+{
+    scale: 2;
+    height:250px;
+    width: 190px;
+    border-radius: 0%;
+    opacity: 100%;
+}
+img{
+    margin-top: 5%;
+    height:290px;
+    width: 220px;
+    border-radius: 15%;
+    opacity: 80%;
+}
+h1{
+    font-size: 53px;
+    color:rgb(255, 81, 0);  
+}
+p{
+    color:rgb(255, 255, 255); 
+    margin-left: 10px;
+}
+b{
+    color:rgb(255, 145, 0); 
+}
